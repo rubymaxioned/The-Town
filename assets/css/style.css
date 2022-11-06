@@ -172,17 +172,13 @@ nav ul { display: none; }
 .banner-section .wrapper {
   min-height: 300px;
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .banner-content { width: 150px; }
-
-.arrow {
-  position: absolute;
-  bottom: 50px;
-}
 
 h2 {
   margin-bottom: 10px;
@@ -202,17 +198,27 @@ h2 {
 }
 
 .arrow {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
   background-color: #fff;
 }
 
 .chevron::before { 
-  content: "\f063";
+  content: '\f0d7';
   font-family: "FontAwesome";
   position: absolute;
+  text-indent: 0px;
+  color: #C56D80;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
 }
+
+.chevron { text-indent: -9999px; }
 /*banner section end*/
 
 
