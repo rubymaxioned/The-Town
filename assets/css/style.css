@@ -166,6 +166,7 @@ nav ul { display: none; }
 .banner-section {
   width: 100%;
   height: auto;
+  margin-bottom: 30px;
   background: url(/assets/Images/the-town-bg-01.jpg) no-repeat center center / cover;
 }
 
@@ -221,6 +222,19 @@ h2 {
 .chevron { text-indent: -9999px; }
 /*banner section end*/
 
+/*introduction section start*/
+.introduction .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.introduction-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/*introduction section end*/
 
 
 
