@@ -237,7 +237,32 @@ h2 {
 /*introduction section end*/
 
 
+/*card section start*/
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
+.card li span { width: 100%; }
+
+.bus::before { content: '\f207';}
+.cycle::before { content: '\f206'; }
+.building::before { content: '\f1ad'; }
+
+.icons::before {
+  width: 100%;
+  float: left;
+  font-family: "FontAwesome";
+  text-align: center;
+  text-indent: 0px;
+}
+
+.icons { 
+  display: inline-block;
+  text-indent: -9999px;
+ }
+/*card section end*/
 
 
 /*=================================
