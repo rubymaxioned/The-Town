@@ -264,7 +264,15 @@ h2 {
  }
 /*card section end*/
 
+.caurosel { display: none; }
 
+.our-work-section ul { display: flex; }
+
+.our-work-section ul li { 
+  flex: 1;
+ }
+
+ .our-work-section ul li img { min-height: 300px; }
 /*=================================
   main styling ends here
 =================================*/
